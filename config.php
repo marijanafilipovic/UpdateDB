@@ -24,21 +24,4 @@ spl_autoload_register(function ($class) {
     }
     });
 
-/*spl_autoload_register(function ($class) {
-    $pathControllers = 'controllers/' . $class . '.php';
-    $pathModels = 'models/' . $class . '.php';
-    $pathClasses = 'classes/' . $class . '.php';
-
-    $files = array(
-        $pathControllers,
-        $pathModels,
-        $pathClasses
-    );
-    foreach ($files as $file) {
-        if (file_exists($file)) {
-            require_once $file;
-        }
-    }
-}
-);*/
 ?>
