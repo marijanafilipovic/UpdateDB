@@ -1,7 +1,7 @@
 <?php
 /** 
-* Automaticly creates new Zip Arhive and
-* change pocessed data with random function
+* Automaticly UnZip Arhive to folder 'xml/' as XML data set
+* and update DB 
 * from constructor
 */
 class Service
