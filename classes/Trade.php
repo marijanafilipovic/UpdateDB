@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: Marijana
+ * From constructor get randomly data and 
+ * Process with XML to Ziped file
  * Date: 5/9/2017
  * Time: 11:38 PM
  */
