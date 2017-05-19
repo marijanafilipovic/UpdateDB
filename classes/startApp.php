@@ -1,7 +1,9 @@
 <?php
 
 /**
- * Created by PhpStorm.
+ * Initial class for MVC model 
+ * and exucting scriptss service
+ * refeshed from header
  * User: Marijana
  * Date: 5/10/2017
  * Time: 11:01 PM
@@ -17,12 +19,13 @@ public function __construct(){
 
     }
 
-    $trade = new Trade();
+    // get Data from Db and process to xml data set
+       $trade = new Trade();
+    
+    // set xml data set to the ZIPed file
     $trade->zipUp();
-  /*  $trade->unZip();
-    $trade->update();*/
-
-$change= new Service();
-//$change->update();
-}
+  
+    // unZip file gets xml data and randomly change value
+    $change= new Service();
+ }
 }
