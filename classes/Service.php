@@ -1,16 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Marijana
- * Date: 5/11/2017
- * Time: 8:17 PM
- */
+/** 
+* Automaticly creates new Zip Arhive and
+* change pocessed data with random function
+* from constructor
+*/
 class Service
 {
     protected $dbh;
     public $conn;
 
-    public function __construct()
+    private function __construct()
     {
         $zip = new ZipArchive;
         $res = $zip->open('akcije.zip');
