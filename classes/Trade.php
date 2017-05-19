@@ -1,8 +1,9 @@
 <?php
 
 /**
- * From constructor get randomly data and 
- * Process with XML to Ziped file
+ * From constructor get randomly xml data and 
+ * change value of two columns 
+ * Function ZipUp() Process XML data to Ziped file
  * Date: 5/9/2017
  * Time: 11:38 PM
  */
